@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kokoa Talk</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <img class="status-bar__icon" src="https://img.icons8.com/metro/26/000000/wifi.png"/>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <img class="status-bar__icon" src="https://img.icons8.com/ios-glyphs/30/000000/medium-battery.png"/>
+            <img class="status-bar__icon" src="https://img.icons8.com/metro/26/000000/lightning-bolt.png"/>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+            <img src="https://img.icons8.com/fluent-systems-filled/24/000000/chevron-left--v2.png"/>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">McKenzie LIM</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><img class="navbar__img" src="https://img.icons8.com/pastel-glyph/64/000000/search--v2.png"/></span>
+            <span><img src="https://img.icons8.com/fluent-systems-filled/24/000000/menu.png"/></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020 
+        </div>
+
+        <div class="message-row">
+            <img src="https://img.icons8.com/android/24/000000/cat.png" class="user-component__avatar" />
+            <div class="message-row__content">
+                <span class="message__author">Nicolas</span>
+                <div class="message__info received">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info sent">
+                    <span class="message__bubble">Hi Nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+    
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <img src="https://img.icons8.com/ios/50/000000/plus--v1.png"/>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Send a message ... ">
+            <img src="https://img.icons8.com/windows/32/000000/smile-beam.png"/>
+            <button>
+                <img src="https://img.icons8.com/material-outlined/24/000000/send-letter.png"/>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big😂</span>
+    </div>
+    
+
+</body>
+</html>

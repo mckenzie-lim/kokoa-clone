@@ -1,0 +1,22 @@
+.settings__setting {
+    padding: 10px 0; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); 
+    display:flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting img {
+    margin-right:10px; 
+    opacity: 0.7;
+    
+}
+
+.settings__setting-column:last-child{
+    opacity:0.5; 
+}
+
+.alt-header__column img {
+    width: 24px;
+    height:24px;
+}
